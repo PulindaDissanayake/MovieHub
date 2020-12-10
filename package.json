@@ -1,0 +1,24 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PulindaDissanayake/MovieHub.git"
+  },
+  "author": "PulindaDissanayake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PulindaDissanayake/MovieHub/issues"
+  },
+  "homepage": "https://github.com/PulindaDissanayake/MovieHub#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}

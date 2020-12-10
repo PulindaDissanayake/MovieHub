@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+        <h1>This is results page</h1>
+        <table>
+                <tr>
+                  <th>Name</th>
+                  <th>imdb ID</th>
+                  <th>Year</th>
+                </tr>
+                <tr>
+                 <% data["Search"].forEach(function(movie) { %>
+                  <td><%= movie["Title"] %></td>
+                  <td><%= movie["imdbID"] %></td>
+                  <td><%= movie["Year"] %></td>
+                </tr>
+        <% }); %>
+        </table>
+
+</body>
+</html>
